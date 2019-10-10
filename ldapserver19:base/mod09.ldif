@@ -1,0 +1,16 @@
+#dn: cn=Marta Mas,ou=usuaris,dc=edt,dc=org
+#changetype: modrdn
+#newrdn: cn=Marta Menos
+#deleteoldrdn: 1
+
+#dn: cn=Marta Menos,ou=usuaris,dc=edt,dc=org
+#changetype: modrdn
+#newrdn: cn=Marta Mas
+#deleteoldrdn: 0
+
+dn: cn=Marta Mas,ou=usuaris,dc=edt,dc=org
+changetype: modrdn
+newrdn: cn=Marta Mas
+deleteoldrdn: 1
+newsuperior: ou=productes,dc=edt,dc=org
+

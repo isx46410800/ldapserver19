@@ -1,0 +1,6 @@
+dn: cn=Marta Mas,ou=usuaris,dc=edt,dc=org
+changetype: modify
+replace: description
+description: Watch out for this girl
+description: la marta es molt bona estudiant
+

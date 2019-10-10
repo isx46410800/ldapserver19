@@ -1,0 +1,8 @@
+dn: cn=Marta Mas,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: description
+description: la primera description
+description: la segona description
+description: la tercera description
+description: la ultima description
+
