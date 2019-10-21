@@ -23,6 +23,14 @@ olcAccess: to * by * read
 ---
 
 3. Tot usuari es pot modificar el seu mail. Tothom pot veure totes les dades de tothom.
+---
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+replace: olcAccess
+olcAccess: to attrs=mail by self write
+olcAccess: to * by * read
+---
+
 4. Tothom pot veure totes les dades de tothom, excepte els mail dels altres.
 5. Tot usuari es pot modificar el seu propi password i tothom pot veure totes les dades
 de tothom.
