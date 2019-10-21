@@ -1,10 +1,10 @@
 dn: cn=Marta Mas,ou=usuaris,dc=edt,dc=org
 changetype: modify
 replace: mail
-mail: newmarta@edt.org
+mail: newmarta10@edt.org
 
 dn: cn=Jordi Mas,ou=usuaris,dc=edt,dc=org
 changetype: modify
 replace: mail
-mail: newmjordi@edt.org
+mail: newmjordi10@edt.org
 
