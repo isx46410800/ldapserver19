@@ -1,0 +1,40 @@
+dn: uid=Pere Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: objectclass
+objectclass: x-master
+-
+add: x-nom-master
+x-nom-master: IA en la TV
+-
+add: x-descripcio
+x-descripcio: Com afecta la IA en la TV
+-
+add: x-nota
+x-nota: 6
+-
+add: x-web
+x-web: www.google.com
+-
+add: x-foto
+x-foto: file:///opt/docker/pou.jpg
+
+dn: uid=Marta Mas,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: objectclass
+objectclass: x-master
+-
+add: x-nom-master
+x-nom-master: SSD vs solids
+-
+add: x-descripcio
+x-descripcio: Com afecta els discos durs SSD
+-
+add: x-nota
+x-nota: 8
+-
+add: x-web
+x-web: www.google.com
+-
+add: x-foto
+x-foto: file:///opt/docker/pou.jpg
+
