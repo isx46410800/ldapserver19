@@ -18,7 +18,7 @@ x-nom-master: IA en els movils
 x-descripcio: Com afecta la IA en els movils
 x-nota: 7
 x-web: www.google.com
-x-foto: /opt/docker/pou.jpg
+x-foto:< file:///opt/docker/pou.jpg
 userPassword: {SSHA}wKBxUJksGdC9ZPSwFQLrTKvFByrPmRmo
 
 dn: uid=Cristina Amoros,ou=usuaris,dc=edt,dc=org
@@ -41,6 +41,6 @@ x-nom-master: Linux o Windows
 x-descripcio: Batalla per saber si es millor Linux o Windows
 x-nota: 9
 x-web: www.google.es
-x-foto: /opt/docker/cristina.jpg
+x-foto:< file:///opt/docker/cristina.jpg
 userPassword: {SSHA}SyzggJmdheh8KigK52rxvFv8V/9jDeMV
 
