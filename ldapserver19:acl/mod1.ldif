@@ -1,0 +1,10 @@
+dn: cn=Jordi Mas,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: mail
+mail: kakamail
+
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: mail
+mail: kakamail
+

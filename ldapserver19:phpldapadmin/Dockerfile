@@ -6,8 +6,6 @@ LABEL subject="phpldapadmin"
 RUN dnf install -y openldap-servers openldap-clients phpldapadmin php-xml httpd
 RUN mkdir /opt/docker
 COPY * /opt/docker/
-COPY config.php /etc/phpldapadmin/.
-COPY phpldapadmin.conf /etc/httpd/config.d/.
 RUN chmod +x /opt/docker/startup.sh
 WORKDIR /opt/docker
 CMD /opt/docker/startup.sh
