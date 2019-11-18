@@ -1,0 +1,21 @@
+dn: cn=Miguel Amoros,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: x-entrenadores
+cn: Miguel
+cn: Miky
+sn: Amoros
+homephone: 555-222-6666
+mail: miguel@edt.org
+description: un merengue por Barcelona
+ou: Alumnes
+ou: Profes
+uid: miguel
+uidNumber: 5040
+gidNumber: 110
+homeDirectory: /tmp/home/miguel
+x-equip: Real Madrid
+x-nombre: Jose Mourinho
+x-edad: 50
+userPassword: {SSHA}wKBxUJksGdC9ZPSwFQLrTKvFByrPmRmo
+

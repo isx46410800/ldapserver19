@@ -1,0 +1,10 @@
+dn: cn=Jordi Mas,ou=usuaris,dc=edt,dc=org
+changetype: modify
+replace: homePhone
+homePhone: 11111111111111
+
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+replace: homePhone
+homePhone: 11111111111111
+

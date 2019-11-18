@@ -1,0 +1,14 @@
+dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: objectclass
+objectclass: x-entrenadores
+-
+add: x-equip
+x-equip: Real Madrid
+-
+add: x-edad
+x-edad: 50
+-
+add: x-nombre
+x-nombre: Mourinho
+

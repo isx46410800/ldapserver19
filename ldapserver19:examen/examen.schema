@@ -1,0 +1,27 @@
+attributetype ( 1.1.2.1.1 NAME 'x-equip' 
+  DESC 'equip del entrenador'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+
+attributetype ( 1.1.2.1.2 NAME 'x-nombre' 
+  DESC 'nombre del entrenador'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+
+attributetype ( 1.1.2.1.3 NAME 'x-edad' 
+  DESC 'edad'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.27 )
+
+attributetype ( 1.1.2.1.5 NAME 'x-sancion'
+  DESC 'entrenador sancionado'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+  SINGLE-VALUE )
+
+objectclass ( 1.1.2.2.1 NAME 'x-entrenadores' 
+  DESC 'entrenadores'
+  SUP TOP
+  AUXILIARY
+  MUST x-equip x-nombre
+  MAY ( x-edad $ x-sanciont ) )
